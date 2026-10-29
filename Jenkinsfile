@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/<YOUR_USERNAME>/uat-devops-demo.git'
+                git branch: 'main', url: 'https://github.com/RushikeshKulkarni07/uat-devops-demo.git'
             }
         }
         stage('Setup Python Env') {
